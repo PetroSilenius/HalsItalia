@@ -3,11 +3,47 @@
 }
 
 .App-logo {
-  height: 15vmin;
+  height: 10vmin;
 }
 
-#info {
-  padding-top:40vh;
+.info {
+  padding-top: 25vh;
+}
+
+.ig-logo {
+  height: 10vmin;
+}
+
+.gh-logo {
+  padding-left: 8px;
+}
+
+.InfoRow {
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.CardImg {
+  height: auto;
+  width: auto;
+  max-width: 23vw;
+  max-height: 13vh;
+  object-fit: cover;
+  min-width: 200px;
+}
+
+.Card {
+  padding: 5px;
+  min-width: 212px;
+}
+
+.CardBody {
+  background-color: #e9e9e9 ;
+}
+
+#EventsBG {
+  background-color: #3c5b9e;
 }
 
 .App-link {
@@ -23,4 +59,6 @@
   color: #aee4e8;
 }
 
-
+::-webkit-scrollbar {
+  display: none;
+}
