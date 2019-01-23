@@ -7,7 +7,7 @@
 }
 
 .info {
-  padding-top: 25vh;
+  padding-top: 20vh;
 }
 
 .ig-logo {
@@ -61,4 +61,41 @@
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+
+.clock {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2px;
+    margin-top: 10px;
+}
+
+.clock-display {
+    position: relative;
+}
+
+.clock-text {
+    font-size: 2rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+
+.clock-unit {
+    font-size: 0.75rem;
+}
+
+.circle {
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    transition: stroke-dashoffset .5s cubic-bezier(.4, 0, 0, 1.7);
 }

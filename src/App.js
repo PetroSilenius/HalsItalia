@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import './App.css';
 import InfoCard from "./components/Infocard";
 import Schedule from './components/Schedule';
+import Countdown from './components/Countdown';
 
 import logo from './logo.svg';
 import backgroundImage from './background.jpg';
@@ -24,6 +25,7 @@ class App extends Component {
         <About>
             <h1> HalsItaly </h1>
             <p>Lippukunta Halikon Sinisten Italian leiri 5.-19.6.2019</p>
+            <Countdown/>
             <div className="info">
                 <img src={logo} className="App-logo" alt="logo" />
                 <a
@@ -74,7 +76,7 @@ class App extends Component {
               </Events>
           </div>
           <Footer>
-              <p><b>Petro Silenius 2019
+              <p><b>Petro Silenius © 2019
                   <a
                     className="App-link"
                     href="https://github.com/PetroSilenius"
