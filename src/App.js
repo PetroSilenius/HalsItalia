@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {Row} from 'reactstrap';
 import styled from 'styled-components';
 
@@ -6,22 +6,38 @@ import './App.css';
 import InfoCard from "./components/Infocard";
 import Schedule from './components/Schedule';
 import Countdown from './components/Countdown';
+import Menu from './components/Menu';
+import MenuButton from './components/MenuButton';
 
-import logo from './logo.svg';
-import backgroundImage from './background.jpg';
-import instagram from './instagram.png';
-import github from './github.png';
-import rome from './rome.jpeg';
-import rome2 from './rome2.jpeg';
-import toscany from './toscany.jpg';
-import molveno from './molveno.jpeg';
+import logo from './images/logo.svg';
+import backgroundImage from './images/background.jpg';
+import instagram from './images/instagram.png';
+import github from './images/github.png';
+import rome from './images/rome.jpeg';
+import rome2 from './images/rome2.jpeg';
+import toscany from './images/toscany.jpg';
+import molveno from './images/molveno.jpeg';
 
 
+class App extends React.Component {
+    constructor(props) {
+        super(props)
 
-class App extends Component {
+        this.state = {menuVisible: false}
+        this.toggleMenu = this.toggleMenu.bind(this)
+    }
+
+    toggleMenu() {
+        this.setState({menuVisible: !this.state.menuVisible})
+    }
+
   render() {
     return (
       <div className="App">
+        <MenuButton onClick={this.toggleMenu}
+                    menuVisible={this.state.menuVisible}/>
+        <Menu onClick={this.toggleMenu}
+              menuVisible={this.state.menuVisible}/>
         <About>
             <h1> HalsItaly </h1>
             <p>Lippukunta Halikon Sinisten Italian leiri 5.-19.6.2019</p>

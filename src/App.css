@@ -3,11 +3,13 @@
 }
 
 .App-logo {
-  height: 10vmin;
+  height: 8vmin;
+  padding-right: 10px;
 }
 
 .info {
-  padding-top: 20vh;
+  padding-top: 15vh;
+  padding-bottom: 2vh;
 }
 
 .ig-logo {
@@ -79,6 +81,7 @@
 
 .clock-text {
     font-size: 2rem;
+    font-weight: 500;
     align-items: center;
     display: flex;
     flex-direction: column;
