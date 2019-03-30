@@ -39,7 +39,7 @@ class App extends React.Component {
         <Menu onClick={this.toggleMenu}
               menuVisible={this.state.menuVisible}/>
         <About>
-            <h1> HalsItaly </h1>
+            <h1> HalsItalia </h1>
             <p>Lippukunta Halikon Sinisten Italian leiri 5.-19.6.2019</p>
             <Countdown/>
             <div className="info">
@@ -107,6 +107,7 @@ class App extends React.Component {
     );
   }
 }
+
 
 const About = styled.div`
   background-image: url(${backgroundImage});

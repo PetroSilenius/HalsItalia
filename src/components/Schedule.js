@@ -7,10 +7,6 @@ const Schedule = () => {
         <div>
             <h4>Tulevat tapahtumat</h4>
             <ListGroup>
-                <Event name={'Pakastemyynti '} time={'23.-29.1.'}/>
-                <Event name={'Ryhmäytymispäivä '} time={'9.2.'} other={true}/>
-                <Event name={'Talvirieha Salon Torilla '} time={'17.2.'}/>
-                <Event name={'Metrilakumyynti '} time={'4.-17.3.'}/>
                 <Event name={'Ankkurirastit, letunpaisto '} time={'14.4.'}/>
                 <Event name={'Haravointi '} time={'Huhti-Toukokuu'}/>
                 <Event name={'Kouludisko '} time={'30.4.'}/>

@@ -1,8 +1,8 @@
 import React from 'react';
 
 
-const arrival = new Date('June 5, 2019 12:55:00')
-const departure = new Date('June 19, 2019 07:45:00')
+const arrival = new Date('June 5, 2019 17:05:00')
+const departure = new Date('June 19, 2019 20:15:00')
 
 class Countdown extends React.Component {
     constructor(props) {
