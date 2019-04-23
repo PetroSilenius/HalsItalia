@@ -4,5 +4,5 @@ The site can be on found http://halsitaly.herokuapp.com/
 
 Made with React and hosted on Heroku.
 
-##To run
+**To run**
 Run commands 'npm install' and 'npm start' to activate the website on your localhost
