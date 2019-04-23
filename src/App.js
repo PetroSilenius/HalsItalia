@@ -144,7 +144,7 @@ const Events = styled.div`
   justify-content: center;
   display: inline-block;
   width: 70vw;
-  max-width: 700px;
+  max-width: 600px;
 `;
 
 const Footer = styled.div`
