@@ -38,29 +38,6 @@ class Equipment extends React.Component{
                     <Col>
                     <Table responsive>
                         <thead>
-                            <th>Vaatteet</th>
-                        </thead>
-                        <tbody>
-                            <tr>Partiopaita ja kv-huivi päällä lähdettäsessä</tr>
-                            <tr>Alushousut x10</tr>
-                            <tr>Sukat x10</tr>
-                            <tr>Yöpuku</tr>
-                            <tr>Pyyhe ja uikkarit</tr>
-                            <tr>T-paita x6</tr>
-                            <tr>Pitkähihainen x3</tr>
-                            <tr>Shortsit x2</tr>
-                            <tr>Lippalakki/huivi</tr>
-                            <tr>Pitkät housut</tr>
-                            <tr>Fleece/villapaita</tr>
-                            <tr>Vedenpitävä ulkoiluasu</tr>
-                            <tr>Vaihtovaatteita oman tarpeen mukaan</tr>
-                        </tbody>
-                    </Table>
-                    </Col>
-
-                    <Col>
-                    <Table responsive>
-                        <thead>
                             <th>Päiväreppuun(55x40x23cm, max 10kg</th>
                         </thead>
                         <tbody>
@@ -75,18 +52,37 @@ class Equipment extends React.Component{
                     </Table>
                     <Table responsive>
                         <thead>
+                            <th>Vaatteet</th>
+                        </thead>
+                        <tbody>
+                            <tr>Partiopaita ja kv-huivi päällä lähdettäsessä</tr>
+                            <tr>Alushousut x10</tr>
+                            <tr>Sukat x10</tr>
+                            <tr>Yöpuku</tr>
+                            <tr>Pyyhe ja uikkarit</tr>
+                            <tr>T-paita x6</tr>
+                            <tr>Pitkähihainen x3</tr>
+                            <tr>Shortsit x4</tr>
+                            <tr>Lippalakki/huivi x2</tr>
+                            <tr>Pitkät housut x2</tr>
+                            <tr>Fleece/villapaita</tr>
+                            <tr>Vedenpitävä ulkoiluasu</tr>
+                            <tr>Vaihtovaatteita oman tarpeen mukaan</tr>
+                            <tr>Villasukat</tr>
+                        </tbody>
+                    </Table>
+                    </Col>                                    
+                    <Col>
+                    <Table responsive>
+                        <thead>
                             <th>Kengät</th>
                         </thead>
                         <tbody>
+                            <tr>Vaelluskengät, korkeavartiset ja tukevat</tr>
                             <tr>Mukavat kävelykengät x2</tr>
-                            <tr>Vaelluskengät</tr>
                             <tr>Sandaalit/crocsit</tr>
                         </tbody>
                     </Table>
-                    </Col>
-                    </Row>
-                    <Row>
-                    <Col>
                     <Table responsive>
                         <thead>
                             <th>Hygienia ja lääkkeet</th>
@@ -96,11 +92,12 @@ class Equipment extends React.Component{
                             <tr>Kasvopyyhe</tr>
                             <tr>Deodorantti</tr>
                             <tr>Shampoo, hoitoaine ja suihkugeeli</tr>
+                            <tr>Huulirasva</tr>
+                            <tr>Nenäliinoja</tr>
                             <tr>Aurinkorasva</tr>
                             <tr>Henkilökohtaiset lääkkeet</tr>
                             <tr>Allergia- ja särkylääke</tr>
-                            <tr>Nenäliinoja</tr>
-                            <tr>Huulirasva</tr>
+                            <tr>Laastareita ja rakkolaastareita</tr>
                             <tr>Kosteusvoide</tr>
                             <tr>Hiusharja, ponnareita</tr>
                             <tr>Kuukautissuojat</tr>
@@ -113,10 +110,12 @@ class Equipment extends React.Component{
                         <tbody>
                             <tr>Aluslakana</tr>
                             <tr>Pussilakana tai ohut kesämakuupussi</tr>
-                            <tr>Tyynyliina ja kevyt tyyny</tr>
+                            <tr>Retkityyny ja tyynyliina</tr>
                         </tbody>
                     </Table>
                     </Col>
+                    </Row>
+                    <Row>
                     <Col>
                     <Table responsive>
                         <thead>
@@ -124,9 +123,10 @@ class Equipment extends React.Component{
                         </thead>
                         <tbody>
                             <tr>Ruokailuvälineet ja astiapyyhe kangaspussissa</tr>
-                            <tr>Juomapullo x2</tr>
+                            <tr>Juomapullo (väh. 1litra) x2</tr>
                             <tr>Lompakko</tr>
                             <tr>Käteistä ja maksukortti</tr>
+                            <tr>Kello</tr>
                             <tr>Aurinkolasit</tr>
                             <tr>Pienikokoinen sateenvarjo</tr>
                             <tr>Kännykkä ja laturi</tr>

@@ -27,7 +27,7 @@ class Contact extends React.Component{
                 <h1>Yhteystiedot</h1>
 
                 <ContactInfo>
-                <h3>Leiripuhelin +358 40 4196798</h3><br/>
+                <h3>Leiripuhelin +358 40 1693169</h3><br/>
                 <h6>Leirin virallinen yhteyspuhelin, josta tavoitat meidät 24/7.<br/>
                 Tämä toimii ensisijaisena yhteytenä leiriin.</h6>
                 <br/>
