@@ -1,6 +1,6 @@
 ## HalsItalia
 A website made for a scout group's trip in Summer 2019.
-The site can be on found http://halsitaly.herokuapp.com/
+The site can be on found http://italia.halsi.fi
 
 Made with React and hosted on Heroku.
 
