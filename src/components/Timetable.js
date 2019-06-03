@@ -68,10 +68,10 @@ class Timetable extends React.Component{
                         </Col>
                         <Col>
                         <ListGroupItem>
-                            <ListGroupItemHeading>9.6. Firenze</ListGroupItemHeading>
+                            <ListGroupItemHeading>9.6. Siena</ListGroupItemHeading>
                             <ListGroupItemText>
-                                Aamupäivä majapaikassa<br/>
-                                Päivä Firenzessä, illalla takaisin
+                                Viinitarhaan tutustuminen<br/>
+                                Päivä Sienassa
                             </ListGroupItemText>
                         </ListGroupItem>
                         </Col>
@@ -108,7 +108,7 @@ class Timetable extends React.Component{
                         </Col>
                         <Col>
                         <ListGroupItem>
-                            <ListGroupItemHeading>13.6. Rooma</ListGroupItemHeading>
+                            <ListGroupItemHeading>13.6. Valdichiana</ListGroupItemHeading>
                             <ListGroupItemText>
                                 Shoppailupäivä<br/>
                                 Valdichiana Outlet Village
@@ -119,10 +119,10 @@ class Timetable extends React.Component{
                         <Row>
                         <Col>
                         <ListGroupItem>
-                            <ListGroupItemHeading>14.6. Sienna</ListGroupItemHeading>
+                            <ListGroupItemHeading>14.6. Firenze</ListGroupItemHeading>
                             <ListGroupItemText>
-                                Viinitarhaan tutustuminen<br/>
-                                Päivä Siennassa
+                                Aamupäivä majapaikassa<br/>
+                                Päivä Firenzessä, illalla takaisin
                             </ListGroupItemText>
                         </ListGroupItem>
                         </Col>

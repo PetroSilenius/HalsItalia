@@ -1,8 +1,8 @@
 import React from 'react';
 
 
-const arrival = new Date('June 5, 2019 17:05:00')
-const departure = new Date('June 19, 2019 20:15:00')
+const arrival = new Date('June 5, 2019 13:00:00')
+const departure = new Date('June 20, 2019 04:00:00')
 
 class Countdown extends React.Component {
     constructor(props) {
@@ -12,6 +12,7 @@ class Countdown extends React.Component {
             hours: 0,
             minutes: 0,
             seconds: 0,
+            text:"",
         }
     }
 
@@ -29,19 +30,28 @@ class Countdown extends React.Component {
 
     getTimeUntil() {
         let time = Date.parse(arrival) - Date.parse(new Date())
+        let text = "Leirin alkuun"
         if (time<0){
             time = Date.parse(departure) - Date.parse(new Date())
+            text= "Leirin loppuun"
+            if (time<0){
+                text = "Leiristä aikaa"
+                time =  Date.parse(new Date()) - Date.parse(departure)
+            }
         }
+
         const days = Math.floor(time / (1000 * 60 * 60 * 24))
         const hours = Math.floor(time / (1000 * 60 * 60) % 24)
         const minutes = Math.floor(time / 1000 / 60 % 60)
         const seconds = Math.floor(time / 1000 % 60)
 
-        this.setState({days, hours, minutes, seconds})
+        this.setState({days, hours, minutes, seconds, text})
     }
 
     render() {
         return (
+            <div>
+            <h5>{this.state.text}</h5>
             <div className="clock">
                 <div className="clock-display">
                     <SvgCircle max={365} done={this.state.days}/>
@@ -71,6 +81,7 @@ class Countdown extends React.Component {
                         <span className="clock-unit">sekuntia</span>
                     </div>
                 </div>
+            </div>
             </div>
         )
     }

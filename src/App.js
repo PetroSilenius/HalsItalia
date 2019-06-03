@@ -85,6 +85,8 @@ class App extends React.Component {
             >
                 <img src={instagram} className="ig-logo" alt="Instagram"/>
             </a>
+            <h4>Virallinen leiripuhelin, joka toimii yhteytenä leiriin</h4>
+            <h3>+358 40 1693169</h3>
         </Follow>
           <div id="EventsBG">
               <Events>
